@@ -1,0 +1,118 @@
+.main-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.bg-cont {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.app-cont {
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 150px; */
+}
+
+.heading {
+  color: #171f46;
+  margin: 30px;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.title-input {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 150px;
+}
+
+.date-input {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.btn-add {
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+
+.appointments-image {
+  height: 250px;
+  width: 350px;
+  margin: 30px;
+}
+
+.horizontal-line {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.display-cont {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+}
+
+.appoints-cont {
+  display: flex;
+}
+
+.top-cont {
+  display: flex;
+}
+
+.appoints-starbtn-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-btn {
+  background-color: white;
+  border-radius: 10px;
+  color: #b5b7c4;
+  margin-left: 550px;
+}
+
+.bot-head {
+  margin-left: 20px;
+}
+
+.appoints-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
